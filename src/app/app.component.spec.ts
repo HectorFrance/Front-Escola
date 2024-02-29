@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { Component } from '@angular/core';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
