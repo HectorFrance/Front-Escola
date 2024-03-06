@@ -1,0 +1,27 @@
+<table class="table" *ngIf="tabela">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Cpf</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th>Tipo</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of alunos">
+            <td>{{a.id}}</td>
+            <td>{{a.nome}}</td>
+            <td>{{a.cpf}}</td>
+            <td>{{a.email}}</td>
+            <td>{{a.fone}}</td>
+            <td>{{a.tipo}}</td>
+            <td class="opc">
+                <a routerLink='/input'><button class="btn-opc" (click)="findByid(a.id)"><img src="../../assets/editpng.png" class="img-opc"></button></a>
+                <button class="btn-opc" (click)="deleteById(a.id)"><img src="../../assets/delete.png" class="img-opc"></button>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    text-align: left;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+}
+
+
+
+#btn-cancela {
+    margin-right: 0;
+    border: solid lightgray 1px;
+    float: right;
+
+}
+
+
+#btn-cadastro {
+
+    float: left;
+
+}
+
+.img-opc {
+    width: 30px;
+    margin: 0;
+
+}
+
+.btn-opc {
+    padding: 0;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
+tr {
+    text-align: center;
+}
+
